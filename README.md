@@ -1,7 +1,7 @@
 ##Electrical Engineering 300 Project
 
-This project uses Bayesian Multivariate Linear regression to predict miles per gallon from a data set of 392 cars.
-It uses a weight to adjust the coefficents on which the predictions are made. Those are input as arguemts when running the predictMPG.py file and printEquation.py. So, if you wanted to run those files with an optimal weight of 41 it would look like...
+This project uses Bayesian Multivariate Linear Regression to predict miles per gallon from a data set of 392 cars.
+It uses a weight to adjust the coefficients on which the predictions are made. Those are input as arguments when running the predictMPG.py file and printEquation.py. So, if you wanted to run those files with an optimal weight of 41 it would look like...
 
     >python predictMPG.py 41
     >python printEquation.py 41
