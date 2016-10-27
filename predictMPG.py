@@ -80,8 +80,8 @@ for car in data:
     #log_file.write(')\n')
     #i = i + 1
 
-np_actual_mpgs= np.array([x for x in actual_mpgs_list], dtype=np.float64)
-np_predicted_mpgs= np.array([x for x in predicted_mpgs_list], dtype=np.float64)
+np_actual_mpgs = np.array([x for x in actual_mpgs_list], dtype=np.float64)
+np_predicted_mpgs = np.array([x for x in predicted_mpgs_list], dtype=np.float64)
 best_fit_m, best_fit_b = best_fit_line(np_actual_mpgs, np_predicted_mpgs)
 regression_min = best_fit_b
 regression_max = (50*best_fit_m)+best_fit_b

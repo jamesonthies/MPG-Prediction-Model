@@ -10,13 +10,13 @@ import numpy as np
 def softmax(x):
     return np.exp(x) / np.exp(x).sum(axis=0)
 
-def de_mean(x):
-    sub = mean(x)
-    return [y - sub for y in x]
+def mean_deviation(x):
+    mean_value = mean(x)
+    return [y - mean_value for y in x]
 
 def covariance(x, y):
     n = len(x)
-    return np.dot(de_mean(x), de_mean(y)) / (n - 1)
+    return np.dot(mean_deviation(x), mean_deviation(y)) / (n - 1)
 
 def correlation(x, y):
     stdev_x = np.std(x)
@@ -73,13 +73,3 @@ def find_range_adjustment_results_abs(data, mpg_equations, abs_corr_vector):
         print('(',i,',',errors_squared,')')
         results.append(errors_squared)
     return results
-
-def display_predicted_car(year, fields, key):
-    print('Predicted Car For', year)
-    print('------------------------')
-    for i in range(6):
-        if i == 1:
-            print(key[i],':', int(fields[i]))
-        else:
-            print(key[i],':', fields[i])
-    print('')
