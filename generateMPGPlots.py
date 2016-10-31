@@ -60,8 +60,9 @@ for i in range(6):
         label = 'MPG vs. ' + dataKey[i+1]
     except:
         break
-    plt.scatter(np.array([car[i+1] for car in data], dtype=np.float64), mpg, label=label, color='k', s=25, marker="o")
-    edges = [min(np.array([car[i+1] for car in data])), max(np.array([car[i+1] for car in data]))]
+    current_attribute = np.array([car[i+1] for car in data], dtype=np.float64)
+    plt.scatter(current_attribute, mpg, label=label, color='k', s=25, marker="o")
+    edges = [min(current_attribute), max(current_attribute)]
     plt.plot(edges, [((lines_data[i][0])*x)+(lines_data[i][1]) for x in edges])
     plt.xlabel(dataKey[i+1])
     plt.ylabel('Miles Per Gallon')

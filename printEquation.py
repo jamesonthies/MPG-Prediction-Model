@@ -19,7 +19,7 @@ import re
 import sys
 
 try:
-    softmax_weight = int(sys.argv[1])
+    softmax_weight = int(float(sys.argv[1]))
 except:
     softmax_weight = 1
 
