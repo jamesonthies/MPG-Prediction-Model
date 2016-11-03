@@ -2,7 +2,7 @@
 predictMPG.py
 Requires Python 3.4+, numpy, and matplotlib
 This file will print predicted mpg for every car in the data set. It also
-accepts an arguement after the file name to apply as the adjustment weight,
+accepts an argument after the file name to apply as the adjustment weight,
 the default being one. It will display a graph comparing the projections with
 known values.
 

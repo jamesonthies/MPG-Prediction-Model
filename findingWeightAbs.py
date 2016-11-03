@@ -2,7 +2,7 @@
 findingWeightAbs.py
 Requires Python 3.4+, numpy, and matplotlib
 This file will display a plot showing the sum of absolute values of errors
-for different possible weights
+for different possible adjustment weights.
 '''
 
 from ProjectFunctions import correlation, best_fit_line, find_range_adjustment_results_abs

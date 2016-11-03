@@ -2,7 +2,7 @@
 printEquation.py
 Requires Python 3.4+, numpy, and matplotlib
 This file will print the equation arrived at for predicting mpg based on the
-softmax_weight. This file accepts a adjustment weight as an arguement after the
+softmax_weight. This file accepts an adjustment weight as an argument after the
 file name.
 
 Examples:

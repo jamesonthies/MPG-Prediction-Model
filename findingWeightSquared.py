@@ -2,7 +2,7 @@
 findingWeightSquared.py
 Requires Python 3.4+, numpy, and matplotlib
 This file displays a plot showing the sum of errors squared for possible
-weights.
+adjustment weights.
 '''
 
 from ProjectFunctions import correlation, best_fit_line, find_range_adjustment_results

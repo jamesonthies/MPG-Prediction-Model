@@ -1,7 +1,7 @@
 '''
 generateMPGPlots.py
 Requires Python 3.4+, numpy, and matplotlib
-This file will display scatter plots comparing elements to MPG.
+This file will display scatter plots comparing attributes to MPG.
 '''
 
 from ProjectFunctions import best_fit_line
