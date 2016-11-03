@@ -11,6 +11,6 @@ If you leave these blank it will default to 1. As for the other files, they are 
     >git clone https://github.com/jamesonthies/MPG-Prediction-Model
     >cd MPG-Prediction-Model
 
-That's it! If you want to see the report send me an email, although as of 10/26/2016, it is a work in progress.
+That's it! If you want to see the paper corresponding to this project, send me an email. Although, as of 11/2/2016, it is a work in progress.
 
 Data Set: Lichman, M. (2013). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
