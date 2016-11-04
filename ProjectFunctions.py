@@ -1,7 +1,7 @@
 '''
 ProjectFunctions.py
 requires python 3.4+ and numpy
-This file contain functions used in the other files
+This file contains functions used in the other files
 '''
 
 from statistics import mean
