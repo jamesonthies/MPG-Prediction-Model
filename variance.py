@@ -88,7 +88,7 @@ for i in range(20):
 
 plt.plot(x_values, proportion_within_error, color='k')
 plt.xlabel('Error')
-plt.ylabel('Proportion of Cars Within Error')
+plt.ylabel('Proportion of Predictions Within Error')
 plt.show()
 
 print('done.')
