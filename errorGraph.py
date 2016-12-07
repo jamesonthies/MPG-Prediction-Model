@@ -80,7 +80,7 @@ num_cars = len(np_actual_mpgs)
 proportion_within_error = [x/num_cars for x in cars_in_error]
 x_values = [i for i in range(20)]
 
-print('Error: Proportion of Cars Within Error')
+print('Error: Proportion of Predictions Within Error')
 for i in range(20):
     print(i,':', proportion_within_error[i])
 
