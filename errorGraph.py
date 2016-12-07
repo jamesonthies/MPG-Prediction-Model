@@ -14,7 +14,6 @@ python variance.py 12
 from ProjectFunctions import best_fit_line, correlation, softmax, predict_mpg
 import matplotlib.pyplot as plt
 import numpy as np
-import re
 import sys
 
 try:
@@ -28,7 +27,6 @@ with open(mpgData) as f:
     content = f.readlines()
 
 data = [[float(x) for x in line.split()[0:7]] for line in content]
-models = [re.findall(r'"([^"]*)"', line) for line in content]
 mpg = np.array([car[0] for car in data], dtype=np.float64)
 cylinders = np.array([car[1] for car in data], dtype=np.float64)
 displacement = np.array([car[2] for car in data], dtype=np.float64)
